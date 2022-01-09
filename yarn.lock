@@ -236,6 +236,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/bcryptjs@npm:^2.4.2":
+  version: 2.4.2
+  resolution: "@types/bcryptjs@npm:2.4.2"
+  checksum: 220dade7b0312b41e23ccfb15f2ddde7804eb3c7ef41db41a6c49054be1e19a15eb3dd8c8ef196494f0866307cce22ad6f3f272941387124707d81dc66155bbc
+  languageName: node
+  linkType: hard
+
 "@types/busboy@npm:^0.3.1":
   version: 0.3.2
   resolution: "@types/busboy@npm:0.3.2"
@@ -641,6 +648,13 @@ __metadata:
   dependencies:
     safe-buffer: 5.1.2
   checksum: 3419b805d5dfc518f3a05dcf42aa53aa9ce820e50b6df5097f9e186322e1bc733c36722b624802cd37e791035aa73b828ed814d8362333d42d7f5cd04d7a5e48
+  languageName: node
+  linkType: hard
+
+"bcryptjs@npm:^2.4.3":
+  version: 2.4.3
+  resolution: "bcryptjs@npm:2.4.3"
+  checksum: 0e80ed852a41f5dfb1853f53ee14a7390b0ef263ce05dba6e2ef3cd919dfad025a7c21ebcfe5bc7fa04b100990edf90c7a877ff7fe623d3e479753253131b629
   languageName: node
   linkType: hard
 
@@ -3859,8 +3873,10 @@ __metadata:
     "@remix-run/dev": ^1.1.1
     "@remix-run/react": ^1.1.1
     "@remix-run/serve": ^1.1.1
+    "@types/bcryptjs": ^2.4.2
     "@types/react": ^17.0.24
     "@types/react-dom": ^17.0.9
+    bcryptjs: ^2.4.3
     esbuild-register: ^3.3.1
     prettier: ^2.5.1
     prisma: ^3.7.0
